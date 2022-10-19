@@ -25,7 +25,6 @@ namespace WpfApp2
 
     public partial class MainWindow : Window
     {
-
         Calculator myCalc = new Calculator();
         string parantesÖppning = "(";
         string parantesStängning = ")";
@@ -39,7 +38,6 @@ namespace WpfApp2
         decimal button8 = 8;
         decimal button9 = 9;
         decimal button0 = 0;
-
         public MainWindow()
         {
             InitializeComponent();
